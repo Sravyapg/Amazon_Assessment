@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.amazon.productTest.SerachProductAndAddtoCart">
+        <methods>
+          <include name="configAT"/>
+          <include name="searchProductTestwithaddtocart"/>
+          <include name="configAS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.amazon.productTest.SerachProductAndAddtoCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

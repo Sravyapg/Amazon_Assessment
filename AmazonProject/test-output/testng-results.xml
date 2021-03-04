@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56314" started-at="2021-03-04T20:15:16Z" finished-at="2021-03-04T20:16:12Z">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="AddProdcarettest.searchProductTestwithaddtocart()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="searchProductTestwithaddtocart" class="com.amazon.productTest.AddProdcarettest"/>
+      </group> <!-- RegressionTest -->
+      <group name="smokeTest">
+        <method signature="SerachProductAndAddtoCart.searchProductTest()[pri:0, instance:com.amazon.productTest.SerachProductAndAddtoCart@7c469c48]" name="searchProductTest" class="com.amazon.productTest.SerachProductAndAddtoCart"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="56314" started-at="2021-03-04T20:15:16Z" finished-at="2021-03-04T20:16:12Z">
+      <class name="com.amazon.productTest.AddProdcarettest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="configBS" is-config="true" duration-ms="21" started-at="2021-03-04T20:15:16Z" finished-at="2021-03-04T20:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBT()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="configBT" is-config="true" duration-ms="1" started-at="2021-03-04T20:15:16Z" finished-at="2021-03-04T20:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="configBC" is-config="true" duration-ms="9933" started-at="2021-03-04T20:15:16Z" finished-at="2021-03-04T20:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="searchProductTestwithaddtocart()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="searchProductTestwithaddtocart" duration-ms="17006" started-at="2021-03-04T20:15:26Z" finished-at="2021-03-04T20:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTestwithaddtocart -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="configAC" is-config="true" duration-ms="952" started-at="2021-03-04T20:15:43Z" finished-at="2021-03-04T20:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAT()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="configAT" is-config="true" duration-ms="1" started-at="2021-03-04T20:16:12Z" finished-at="2021-03-04T20:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.amazon.productTest.AddProdcarettest@51e5fc98]" name="configAS" is-config="true" duration-ms="0" started-at="2021-03-04T20:16:13Z" finished-at="2021-03-04T20:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.amazon.productTest.AddProdcarettest -->
+      <class name="com.amazon.productTest.SerachProductAndAddtoCart">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.amazon.productTest.SerachProductAndAddtoCart@7c469c48]" name="configBC" is-config="true" duration-ms="7433" started-at="2021-03-04T20:15:44Z" finished-at="2021-03-04T20:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="searchProductTest()[pri:0, instance:com.amazon.productTest.SerachProductAndAddtoCart@7c469c48]" name="searchProductTest" duration-ms="19676" started-at="2021-03-04T20:15:52Z" finished-at="2021-03-04T20:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.amazon.productTest.SerachProductAndAddtoCart@7c469c48]" name="configAC" is-config="true" duration-ms="1262" started-at="2021-03-04T20:16:11Z" finished-at="2021-03-04T20:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.amazon.productTest.SerachProductAndAddtoCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
